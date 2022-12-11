@@ -1,0 +1,728 @@
+{
+  "version": "0.0.1",
+  "annotation_definitions": [
+    {
+      "id": "e7857ae2-206c-4638-92b9-0f2b86f94256",
+      "name": "bounding box",
+      "description": "Bounding box for each labeled object visible to the sensor",
+      "format": "json",
+      "spec": [
+        {
+          "label_id": 1,
+          "label_name": " 1a"
+        },
+        {
+          "label_id": 2,
+          "label_name": "1b"
+        },
+        {
+          "label_id": 3,
+          "label_name": "1x2"
+        },
+        {
+          "label_id": 4,
+          "label_name": "1x3"
+        },
+        {
+          "label_id": 5,
+          "label_name": " 2a"
+        },
+        {
+          "label_id": 6,
+          "label_name": " 2b"
+        },
+        {
+          "label_id": 7,
+          "label_name": " 2x2"
+        },
+        {
+          "label_id": 8,
+          "label_name": " 2x3"
+        },
+        {
+          "label_id": 9,
+          "label_name": " 3a"
+        },
+        {
+          "label_id": 10,
+          "label_name": " 3b"
+        },
+        {
+          "label_id": 11,
+          "label_name": " 3x2"
+        },
+        {
+          "label_id": 12,
+          "label_name": " 3x3"
+        },
+        {
+          "label_id": 13,
+          "label_name": " 4a"
+        },
+        {
+          "label_id": 14,
+          "label_name": " 4b"
+        },
+        {
+          "label_id": 15,
+          "label_name": " 4x2"
+        },
+        {
+          "label_id": 16,
+          "label_name": " 4x3"
+        },
+        {
+          "label_id": 17,
+          "label_name": " 5a"
+        },
+        {
+          "label_id": 18,
+          "label_name": " 5b"
+        },
+        {
+          "label_id": 19,
+          "label_name": " 5x2"
+        },
+        {
+          "label_id": 20,
+          "label_name": " 5x3"
+        },
+        {
+          "label_id": 21,
+          "label_name": " 6a"
+        },
+        {
+          "label_id": 22,
+          "label_name": " 6b"
+        },
+        {
+          "label_id": 23,
+          "label_name": " 6x2"
+        },
+        {
+          "label_id": 24,
+          "label_name": " 6x3"
+        },
+        {
+          "label_id": 25,
+          "label_name": " 7a"
+        },
+        {
+          "label_id": 26,
+          "label_name": " 7b"
+        },
+        {
+          "label_id": 27,
+          "label_name": " 7x2"
+        },
+        {
+          "label_id": 28,
+          "label_name": " 7x3"
+        },
+        {
+          "label_id": 29,
+          "label_name": " 8a"
+        },
+        {
+          "label_id": 30,
+          "label_name": " 8b"
+        },
+        {
+          "label_id": 31,
+          "label_name": " 8x2"
+        },
+        {
+          "label_id": 32,
+          "label_name": " 8x3"
+        },
+        {
+          "label_id": 33,
+          "label_name": " 9a"
+        },
+        {
+          "label_id": 34,
+          "label_name": " 9b"
+        },
+        {
+          "label_id": 35,
+          "label_name": " 9x2"
+        },
+        {
+          "label_id": 36,
+          "label_name": " 9x3"
+        },
+        {
+          "label_id": 37,
+          "label_name": " 10a"
+        },
+        {
+          "label_id": 38,
+          "label_name": " 10b"
+        },
+        {
+          "label_id": 39,
+          "label_name": " 10x2"
+        },
+        {
+          "label_id": 40,
+          "label_name": " 10x3"
+        },
+        {
+          "label_id": 41,
+          "label_name": " 11a"
+        },
+        {
+          "label_id": 42,
+          "label_name": " 11b"
+        },
+        {
+          "label_id": 43,
+          "label_name": " 11x2"
+        },
+        {
+          "label_id": 44,
+          "label_name": " 11x3"
+        },
+        {
+          "label_id": 45,
+          "label_name": " 12a"
+        },
+        {
+          "label_id": 46,
+          "label_name": " 12b"
+        },
+        {
+          "label_id": 47,
+          "label_name": " 12x2"
+        },
+        {
+          "label_id": 48,
+          "label_name": " 12x3"
+        },
+        {
+          "label_id": 49,
+          "label_name": " 13a"
+        },
+        {
+          "label_id": 50,
+          "label_name": " 13b"
+        },
+        {
+          "label_id": 51,
+          "label_name": " 13x2"
+        },
+        {
+          "label_id": 52,
+          "label_name": " 13x3"
+        },
+        {
+          "label_id": 53,
+          "label_name": " 14a"
+        },
+        {
+          "label_id": 54,
+          "label_name": " 14b"
+        },
+        {
+          "label_id": 55,
+          "label_name": " 14x2"
+        },
+        {
+          "label_id": 56,
+          "label_name": " 14x3"
+        },
+        {
+          "label_id": 57,
+          "label_name": " 15a"
+        },
+        {
+          "label_id": 58,
+          "label_name": " 15b"
+        },
+        {
+          "label_id": 59,
+          "label_name": " 15x2"
+        },
+        {
+          "label_id": 60,
+          "label_name": " 15x3"
+        },
+        {
+          "label_id": 61,
+          "label_name": " 16a"
+        },
+        {
+          "label_id": 62,
+          "label_name": " 16b"
+        },
+        {
+          "label_id": 63,
+          "label_name": " 16x2"
+        },
+        {
+          "label_id": 64,
+          "label_name": " 16x3"
+        },
+        {
+          "label_id": 65,
+          "label_name": " 17a"
+        },
+        {
+          "label_id": 66,
+          "label_name": " 17b"
+        },
+        {
+          "label_id": 67,
+          "label_name": " 17x2"
+        },
+        {
+          "label_id": 68,
+          "label_name": " 17x3"
+        },
+        {
+          "label_id": 69,
+          "label_name": " 18a"
+        },
+        {
+          "label_id": 70,
+          "label_name": " 18b"
+        },
+        {
+          "label_id": 71,
+          "label_name": " 18x2"
+        },
+        {
+          "label_id": 72,
+          "label_name": " 18x3"
+        },
+        {
+          "label_id": 73,
+          "label_name": " 19a"
+        },
+        {
+          "label_id": 74,
+          "label_name": " 19b"
+        },
+        {
+          "label_id": 75,
+          "label_name": " 19x2"
+        },
+        {
+          "label_id": 76,
+          "label_name": " 19x3"
+        },
+        {
+          "label_id": 77,
+          "label_name": " 20a"
+        },
+        {
+          "label_id": 78,
+          "label_name": " 20b"
+        },
+        {
+          "label_id": 79,
+          "label_name": " 20x2"
+        },
+        {
+          "label_id": 80,
+          "label_name": " 20x3"
+        },
+        {
+          "label_id": 81,
+          "label_name": " 25"
+        },
+        {
+          "label_id": 82,
+          "label_name": " 50"
+        },
+        {
+          "label_id": 83,
+          "label_name": "outer_ring"
+        },
+        {
+          "label_id": 84,
+          "label_name": "dart"
+        }
+      ]
+    },
+    {
+      "id": "11111111-1111-1111-1111-111111111111",
+      "name": "instance segmentation",
+      "description": "pixel-wise instance segmentation label",
+      "format": "PNG",
+      "spec": [
+        {
+          "label_id": 1,
+          "label_name": " 1a"
+        },
+        {
+          "label_id": 2,
+          "label_name": "1b"
+        },
+        {
+          "label_id": 3,
+          "label_name": "1x2"
+        },
+        {
+          "label_id": 4,
+          "label_name": "1x3"
+        },
+        {
+          "label_id": 5,
+          "label_name": " 2a"
+        },
+        {
+          "label_id": 6,
+          "label_name": " 2b"
+        },
+        {
+          "label_id": 7,
+          "label_name": " 2x2"
+        },
+        {
+          "label_id": 8,
+          "label_name": " 2x3"
+        },
+        {
+          "label_id": 9,
+          "label_name": " 3a"
+        },
+        {
+          "label_id": 10,
+          "label_name": " 3b"
+        },
+        {
+          "label_id": 11,
+          "label_name": " 3x2"
+        },
+        {
+          "label_id": 12,
+          "label_name": " 3x3"
+        },
+        {
+          "label_id": 13,
+          "label_name": " 4a"
+        },
+        {
+          "label_id": 14,
+          "label_name": " 4b"
+        },
+        {
+          "label_id": 15,
+          "label_name": " 4x2"
+        },
+        {
+          "label_id": 16,
+          "label_name": " 4x3"
+        },
+        {
+          "label_id": 17,
+          "label_name": " 5a"
+        },
+        {
+          "label_id": 18,
+          "label_name": " 5b"
+        },
+        {
+          "label_id": 19,
+          "label_name": " 5x2"
+        },
+        {
+          "label_id": 20,
+          "label_name": " 5x3"
+        },
+        {
+          "label_id": 21,
+          "label_name": " 6a"
+        },
+        {
+          "label_id": 22,
+          "label_name": " 6b"
+        },
+        {
+          "label_id": 23,
+          "label_name": " 6x2"
+        },
+        {
+          "label_id": 24,
+          "label_name": " 6x3"
+        },
+        {
+          "label_id": 25,
+          "label_name": " 7a"
+        },
+        {
+          "label_id": 26,
+          "label_name": " 7b"
+        },
+        {
+          "label_id": 27,
+          "label_name": " 7x2"
+        },
+        {
+          "label_id": 28,
+          "label_name": " 7x3"
+        },
+        {
+          "label_id": 29,
+          "label_name": " 8a"
+        },
+        {
+          "label_id": 30,
+          "label_name": " 8b"
+        },
+        {
+          "label_id": 31,
+          "label_name": " 8x2"
+        },
+        {
+          "label_id": 32,
+          "label_name": " 8x3"
+        },
+        {
+          "label_id": 33,
+          "label_name": " 9a"
+        },
+        {
+          "label_id": 34,
+          "label_name": " 9b"
+        },
+        {
+          "label_id": 35,
+          "label_name": " 9x2"
+        },
+        {
+          "label_id": 36,
+          "label_name": " 9x3"
+        },
+        {
+          "label_id": 37,
+          "label_name": " 10a"
+        },
+        {
+          "label_id": 38,
+          "label_name": " 10b"
+        },
+        {
+          "label_id": 39,
+          "label_name": " 10x2"
+        },
+        {
+          "label_id": 40,
+          "label_name": " 10x3"
+        },
+        {
+          "label_id": 41,
+          "label_name": " 11a"
+        },
+        {
+          "label_id": 42,
+          "label_name": " 11b"
+        },
+        {
+          "label_id": 43,
+          "label_name": " 11x2"
+        },
+        {
+          "label_id": 44,
+          "label_name": " 11x3"
+        },
+        {
+          "label_id": 45,
+          "label_name": " 12a"
+        },
+        {
+          "label_id": 46,
+          "label_name": " 12b"
+        },
+        {
+          "label_id": 47,
+          "label_name": " 12x2"
+        },
+        {
+          "label_id": 48,
+          "label_name": " 12x3"
+        },
+        {
+          "label_id": 49,
+          "label_name": " 13a"
+        },
+        {
+          "label_id": 50,
+          "label_name": " 13b"
+        },
+        {
+          "label_id": 51,
+          "label_name": " 13x2"
+        },
+        {
+          "label_id": 52,
+          "label_name": " 13x3"
+        },
+        {
+          "label_id": 53,
+          "label_name": " 14a"
+        },
+        {
+          "label_id": 54,
+          "label_name": " 14b"
+        },
+        {
+          "label_id": 55,
+          "label_name": " 14x2"
+        },
+        {
+          "label_id": 56,
+          "label_name": " 14x3"
+        },
+        {
+          "label_id": 57,
+          "label_name": " 15a"
+        },
+        {
+          "label_id": 58,
+          "label_name": " 15b"
+        },
+        {
+          "label_id": 59,
+          "label_name": " 15x2"
+        },
+        {
+          "label_id": 60,
+          "label_name": " 15x3"
+        },
+        {
+          "label_id": 61,
+          "label_name": " 16a"
+        },
+        {
+          "label_id": 62,
+          "label_name": " 16b"
+        },
+        {
+          "label_id": 63,
+          "label_name": " 16x2"
+        },
+        {
+          "label_id": 64,
+          "label_name": " 16x3"
+        },
+        {
+          "label_id": 65,
+          "label_name": " 17a"
+        },
+        {
+          "label_id": 66,
+          "label_name": " 17b"
+        },
+        {
+          "label_id": 67,
+          "label_name": " 17x2"
+        },
+        {
+          "label_id": 68,
+          "label_name": " 17x3"
+        },
+        {
+          "label_id": 69,
+          "label_name": " 18a"
+        },
+        {
+          "label_id": 70,
+          "label_name": " 18b"
+        },
+        {
+          "label_id": 71,
+          "label_name": " 18x2"
+        },
+        {
+          "label_id": 72,
+          "label_name": " 18x3"
+        },
+        {
+          "label_id": 73,
+          "label_name": " 19a"
+        },
+        {
+          "label_id": 74,
+          "label_name": " 19b"
+        },
+        {
+          "label_id": 75,
+          "label_name": " 19x2"
+        },
+        {
+          "label_id": 76,
+          "label_name": " 19x3"
+        },
+        {
+          "label_id": 77,
+          "label_name": " 20a"
+        },
+        {
+          "label_id": 78,
+          "label_name": " 20b"
+        },
+        {
+          "label_id": 79,
+          "label_name": " 20x2"
+        },
+        {
+          "label_id": 80,
+          "label_name": " 20x3"
+        },
+        {
+          "label_id": 81,
+          "label_name": " 25"
+        },
+        {
+          "label_id": 82,
+          "label_name": " 50"
+        },
+        {
+          "label_id": 83,
+          "label_name": "outer_ring"
+        },
+        {
+          "label_id": 84,
+          "label_name": "dart"
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222222",
+      "name": "keypoints",
+      "description": "pixel coordinates of keypoints in a model, along with skeletal connectivity data",
+      "format": "json",
+      "spec": [
+        {
+          "template_id": "fe699afd-73a7-4a26-891d-e0bf92108ed1",
+          "template_name": "",
+          "key_points": [
+            {
+              "label": "point",
+              "index": 0,
+              "color": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 1.0,
+                "a": 1.0
+              }
+            },
+            {
+              "label": "feather",
+              "index": 1,
+              "color": {
+                "r": 0.0,
+                "g": 1.0,
+                "b": 0.14819955825805664,
+                "a": 1.0
+              }
+            }
+          ],
+          "skeleton": []
+        }
+      ]
+    }
+  ]
+}
