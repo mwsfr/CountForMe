@@ -1,0 +1,29 @@
+{
+  "version": "0.0.1",
+  "annotation_definitions": [
+    {
+      "id": "d10c25e4-9cb8-4723-bb27-ee619e76cec0",
+      "name": "bounding box",
+      "description": "Bounding box for each labeled object visible to the sensor",
+      "format": "json",
+      "spec": [
+        {
+          "label_id": 1,
+          "label_name": "dart"
+        }
+      ]
+    },
+    {
+      "id": "11111111-1111-1111-1111-111111111111",
+      "name": "instance segmentation",
+      "description": "pixel-wise instance segmentation label",
+      "format": "PNG",
+      "spec": [
+        {
+          "label_id": 1,
+          "label_name": "dart"
+        }
+      ]
+    }
+  ]
+}
