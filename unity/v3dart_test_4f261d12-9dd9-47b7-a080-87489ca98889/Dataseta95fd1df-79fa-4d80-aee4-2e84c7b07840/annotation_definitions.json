@@ -1,0 +1,37 @@
+{
+  "version": "0.0.1",
+  "annotation_definitions": [
+    {
+      "id": "57afbc53-a27e-44f9-8ced-a35ea08c4bc6",
+      "name": "bounding box",
+      "description": "Bounding box for each labeled object visible to the sensor",
+      "format": "json",
+      "spec": [
+        {
+          "label_id": 0,
+          "label_name": "metal"
+        },
+        {
+          "label_id": 1,
+          "label_name": "plastic"
+        }
+      ]
+    },
+    {
+      "id": "11111111-1111-1111-1111-111111111111",
+      "name": "instance segmentation",
+      "description": "pixel-wise instance segmentation label",
+      "format": "PNG",
+      "spec": [
+        {
+          "label_id": 0,
+          "label_name": "metal"
+        },
+        {
+          "label_id": 1,
+          "label_name": "plastic"
+        }
+      ]
+    }
+  ]
+}
